@@ -9,7 +9,8 @@ class ForecastExtendedContainer extends Component {
       this.props.city === null ? null : <ForecastExtended city = { this.props.city }>
       </ForecastExtended>
     )             
-	}
+  }
+  
 }
 const mapStateProps = (state) => ({
   city : state.city
